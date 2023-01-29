@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профиль</title>
+    <link rel="stylesheet" href="6.css">
+    <style>
+
+        .container {
+            max-width: 750px;
+            margin: auto;
+        }
+        
+        
+        .avatar {
+            width: 150px;
+            border-radius: 15px;
+            box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+
+        }
+        @media (max-width: 650px) {
+            .container {
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="img/I.jpg" alt="Аватар" class="avatar">
+        </div>
+        <div class="box">
+            <h1>Григорий Пишун</h1>
+            <p>Я <strong> самый гениальный бездельник</strong>, который хочет познать HTML =). <br> 
+            <em> Я люблю играть в шахматы </em></p>
+            <p><strong>Список социальных сетей:</strong> <br> 
+                <a href="https://vk.com/skywa1keer" target="_blank">Vk</a> |
+                <a href="https://www.youtube.com/channel/UCqaOCkcMobqLghFO98iqsng" target="_blank"> Youtube</a></p>
+        </div>
+        
+        <hr>
+        <br>
+        <div class="hobbi">
+            <h3>Мои хобби:</h3>
+            <ol class="spisok   ">
+                <li>Путешествие</li>
+                <li>Шахматы</li>
+                <li>Футбол</li>
+                <li>Фильмы</li>
+                <li>Сериалы</li>
+            </ol>
+        </div>
+        <div class="job">
+            <h3>Опыт работы</h3>
+            <table width = "300" class="table">
+                <thead>
+                    <tr>
+                        <th>Название</th>
+                        <th>Должность</th>
+                        <th>Год</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>    
+                        <td>Piphagor</td>
+                        <td>Фотограф</td>
+                        <td>2021</td>
+                    </tr>
+                    <tr>    
+                        <td>Leto</td>
+                        <td>Матрос-спасатель</td>
+                        <td>2021-2022</td>
+                    </tr>
+                    <tr>    
+                        <td>Agoy beach</td>
+                        <td>Официант</td>
+                        <td>2021</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <form action="/" class="form">
+            <center><h3>Связаться со мной:</h3></center> 
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" id = "name" placeholder="Введите имя">
+                </div>
+                <div class="form-group">
+                    <label for="mail">Ваш email:</label>
+                    <input type="email" id = "mail" placeholder="Введите email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="massage">Ваше сообщение:</label>
+                <textarea  id="massage" cols="20" rows="5" placeholder="Введите сообщение"></textarea>
+            </div>
+            <button type="submit" class="btn">Отправить!</button>
+                
+        </form>
+        </div>
+    </div>
+        
+    </div>
+    
+    
+</body>
+</html>
